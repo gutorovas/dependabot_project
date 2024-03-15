@@ -3,17 +3,8 @@ retrofitVersion = "2.3.0"
 rxjava = "io.reactivex.rxjava2:rxjava:2.2.21"
 rxjava-android = "io.reactivex.rxjava2:rxandroid:2.1.1"
 rxjava-kotlin = "io.reactivex.rxjava2:rxkotlin:2.4.0"
-a = "com.squareup:square:23.1.0.20220823"
-b = "com.squareup.okhttp3:okhttp:4.11.0"
-c = "com.squareup.okio:okio:3.4.0"
-d = "io.swagger:swagger-annotations:1.5.8"
-e = "commons-collections:commons-collections:3.2.2"
-f = "com.fasterxml.jackson.core:jackson-annotations:2.15.2"
 
 [libraries]
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
 retrofit-converterMoshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofitVersion" }
 retrofit-adapterRxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitVersion" }
-
-[bundles]
-testing-mockito = ["testing-mockito-core", "testing-mockito-kotlin"]
