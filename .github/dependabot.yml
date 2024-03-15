@@ -9,7 +9,7 @@ updates:
     open-pull-requests-limit: 0 # Disable version updates
     schedule:
       interval: "daily"
-      time: "16:00"
+      time: "13:47"
       timezone: "Asia/Tbilisi"  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
 
   - package-ecosystem: "gradle"
@@ -19,5 +19,5 @@ updates:
     open-pull-requests-limit: 0
     schedule:
       interval: "daily"
-      time: "16:00"
+      time: "13:47"
       timezone: "Asia/Tbilisi"
