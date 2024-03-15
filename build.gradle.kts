@@ -21,6 +21,7 @@ repositories {
 
 dependencies {
     testImplementation(kotlin("test"))
+
     implementation("com.squareup:square:${Versions.squareupApi}")
     implementation("com.squareup.okhttp3:okhttp:${Versions.okhttp}")
     api("com.squareup.okio:okio:${Versions.squareupOkio}")
