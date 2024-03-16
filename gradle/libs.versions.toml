@@ -1,5 +1,5 @@
 [versions]
-retrofitVersion = "2.9.0"
+retrofitVersion = "2.1.0"
 rxjava = "io.reactivex.rxjava2:rxjava:2.2.21"
 rxjava-android = "io.reactivex.rxjava2:rxandroid:2.1.1"
 rxjava-kotlin = "io.reactivex.rxjava2:rxkotlin:2.4.0"
