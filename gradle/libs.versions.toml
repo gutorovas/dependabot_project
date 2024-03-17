@@ -8,3 +8,4 @@ rxjava-kotlin = "io.reactivex.rxjava2:rxkotlin:2.4.0"
 retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = "retrofitVersion" }
 retrofit-converterMoshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofitVersion" }
 retrofit-adapterRxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitVersion" }
+squareup = {group = "com.squareup", name = 'connect', version = '2.20191120.0'}
