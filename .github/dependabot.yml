@@ -1,0 +1,25 @@
+# https://docs.github.com/en/code-security/dependabot
+
+version: 2
+updates:
+  - package-ecosystem: "npm"
+#    labels:
+#      - "npm dependencies"
+    directory: "/"
+#    open-pull-requests-limit: 0 # Disable version updates
+    schedule:
+      interval: "daily"
+      time: "13:57"
+      timezone: "Asia/Tbilisi"  # https://en.wikipedia.org/wiki/List_of_tz_database_time_zones
+
+# https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#gradle
+  - package-ecosystem: "gradle"
+#    labels:
+#      - "gradle dependencies"
+    directory: "/"
+#    open-pull-requests-limit: 0
+    schedule:
+      interval: "daily"
+      time: "14:27"
+      timezone: "Asia/Tbilisi"
+
