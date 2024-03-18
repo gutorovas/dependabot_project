@@ -9,3 +9,6 @@ retrofit = { group = "com.squareup.retrofit2", name = "retrofit", version.ref = 
 retrofit-converterMoshi = { group = "com.squareup.retrofit2", name = "converter-moshi", version.ref = "retrofitVersion" }
 retrofit-adapterRxjava2 = { group = "com.squareup.retrofit2", name = "adapter-rxjava2", version.ref = "retrofitVersion" }
 squareup = {group = "com.squareup", name = 'connect', version = '2.20191120.0'}
+wsdl4j = {group = "wsdl4j", name = "wsdl4j", version ="1.5.2"} # https://mvnrepository.com/artifact/wsdl4j/wsdl4j
+
+
