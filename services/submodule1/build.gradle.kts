@@ -30,7 +30,7 @@ dependencies {
     implementation("com.fasterxml.jackson.core:jackson-annotations:${Versions.jackson}")
 
     implementation("wsdl4j:wsdl4j:1.5.2")
-    implementation("org.apache.zookeeper:zookeeper:3.8.0")
+    implementation("org.apache.zookeeper:zookeeper:3.8.4")
 }
 
 tasks.test {
