@@ -10,3 +10,7 @@ plugins {
 }
 
 rootProject.name = "dependabot_project"
+
+
+
+include("services:submodule1")
