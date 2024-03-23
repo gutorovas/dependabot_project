@@ -32,8 +32,8 @@ dependencies {
 
     //!!    implementation("wsdl4j:wsdl4j:1.5.2")
     implementation("wsdl4j:wsdl4j:1.5.2")
-    //!!     implementation("org.apache.zookeeper:zookeeper:3.8.0")
-    implementation("org.apache.zookeeper:zookeeper:3.8.0")
+    //!!     implementation("org.apache.zookeeper:zookeeper:3.9.2")
+    implementation("org.apache.zookeeper:zookeeper:3.9.2")
 }
 
 tasks.test {
