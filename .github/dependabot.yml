@@ -6,7 +6,7 @@ updates:
     labels:
       - "npm dependencies"
     directory: "/"
-    open-pull-requests-limit: 0 # Disable version updates
+    open-pull-requests-limit: 5 # Disable version updates
     schedule:
       interval: "daily"
       time: "13:57"
@@ -17,7 +17,7 @@ updates:
     labels:
       - "gradle dependencies"
     directory: "/"
-    open-pull-requests-limit: 0
+    open-pull-requests-limit: 5
     schedule:
       interval: "daily"
       time: "14:27"
