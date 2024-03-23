@@ -3,10 +3,10 @@
 version: 2
 updates:
   - package-ecosystem: "npm"
-#    labels:
-#      - "npm dependencies"
+    labels:
+      - "npm dependencies"
     directory: "/"
-#    open-pull-requests-limit: 0 # Disable version updates
+    open-pull-requests-limit: 0 # Disable version updates
     schedule:
       interval: "daily"
       time: "13:57"
@@ -14,10 +14,10 @@ updates:
 
 # https://docs.github.com/en/code-security/dependabot/dependabot-version-updates/configuration-options-for-the-dependabot.yml-file#gradle
   - package-ecosystem: "gradle"
-#    labels:
-#      - "gradle dependencies"
+    labels:
+      - "gradle dependencies"
     directory: "/"
-#    open-pull-requests-limit: 0
+    open-pull-requests-limit: 0
     schedule:
       interval: "daily"
       time: "14:27"
