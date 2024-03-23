@@ -1,4 +1,4 @@
-name: Build
+name: Dependabot Setup Gradle
 
 on: [ push ]
 
