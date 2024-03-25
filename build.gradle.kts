@@ -30,7 +30,7 @@ dependencies {
     implementation("commons-collections:commons-collections:${Versions.commonsCollectionsV3}")
     implementation("com.fasterxml.jackson.core:jackson-annotations:${Versions.jackson}")
 //!! 1.5.2
-    implementation("wsdl4j:wsdl4j:1.5.2")
+    implementation("wsdl4j:wsdl4j:1.6.3")
 }
 
 tasks.test {
