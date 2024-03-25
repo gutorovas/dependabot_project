@@ -30,8 +30,8 @@ dependencies {
     implementation("commons-collections:commons-collections:${Versions.commonsCollectionsV3}")
     implementation("com.fasterxml.jackson.core:jackson-annotations:${Versions.jackson}")
 
-    //!!    implementation("wsdl4j:wsdl4j:1.5.2")
-    implementation("wsdl4j:wsdl4j:1.5.2")
+    //!!    implementation("wsdl4j:wsdl4j:1.6.3")
+    implementation("wsdl4j:wsdl4j:1.6.3")
     //!!     implementation("org.apache.zookeeper:zookeeper:3.8.0")
     implementation("org.apache.zookeeper:zookeeper:3.8.0")
 }
